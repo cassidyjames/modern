@@ -9,10 +9,10 @@ html {
 }
 
 body {
-  font-size: 24px;
-  font-weight: 500;
   background-color: #fafafa;
   color: #273445;
+  font-size: 22px;
+  font-weight: 500;
   margin: 1em auto;
 }
 
@@ -35,17 +35,17 @@ h2 {
 }
 
 section.hero {
-  width: 100%;
   background-image:
     linear-gradient(
       rgba(39,52,69, 0.25),
       rgba(14, 20, 31, 0.85)
     ),
     url("https://source.unsplash.com/collection/659270/1920x500");
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   color: white;
   padding: 3vw 0;
+  width: 100%;
 }
 
 h1,
@@ -55,8 +55,8 @@ h4,
 h5,
 h6,
 p {
-  width: 900px;
   margin-left: auto;
   margin-right: auto;
   max-width: 90vw;
+  width: 900px;
 }
