@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>ModernBrand</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:500,900|Chivo:500,900|Exo:500,900|Montserrat:500,900|Paytone+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="all" href="{{ '/styles.css' | prepend: site.baseurl | append: '?v=' | append: site.time }}">
+  </head>
+  <body class="{% if page.url == '/' %}home {% endif %}{{ page.url | replace: '.html', '' | slugify }}">
+    <section class="grid main">
+      <div>
+        {{ content }}
+      </div>
+    </section>
+  </body>
+</html>
