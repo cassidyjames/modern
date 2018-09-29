@@ -1,17 +1,12 @@
-# modern
+# modernbrand
 
-<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:900" rel="stylesheet">
-<style>
-    * {
-        font-family: 'Alegreya Sans', sans-serif;
-    }
+<section class="hero">
+  <h2>Every modern brand ever.</h2>
+  <p>We're different from all of the other brands for reasons. And we paid millions of dollars for this bespoke, hand-made typeface that uniquely characterizes the essence of who we are.</p>
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-weight: 900;
-    }
-</style>
+</section>
+
+### But actually we're the same.
+
+And lol jk this is a free Google Font.
+
