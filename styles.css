@@ -1,5 +1,6 @@
 * {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   line-height: 1.5;
 }
 
@@ -22,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.125;
 }
 
@@ -46,11 +47,20 @@ a:hover {
   opacity: 1;
 }
 
+.illustration {
+  font-size: 0;
+}
+
+.illustration img {
+  width: calc(33.33% - 2rem);
+  margin: 1rem;
+}
+
 section.hero {
   background-image:
     linear-gradient(
-      rgba(39,52,69, 0.25),
-      rgba(14, 20, 31, 0.85)
+      rgba(108, 99, 255, 0.25),
+      rgba(54, 50, 128, 0.85)
     ),
     url("https://source.unsplash.com/collection/659270/1920x500");
   background-position: center;
